@@ -1,0 +1,10 @@
+@keyframes landscape
+{
+    from {background-position: -1035px 0;}
+    to {background-position: 1035px 0;}
+}
+@-webkit-keyframes landscape
+{
+    from {background-position: -1035px 0;}
+    to {background-position: 1035px 0;}
+}

@@ -41,3 +41,19 @@ div
     background-repeat: repeat-X; 
     position: absolute;
 }
+.auto
+{
+    border:thin solid #000;
+    position:absolute;
+    width:234px;
+    height: 150px;
+    bottom:0;
+    left:400px;
+}
+.trailer
+{
+    background-image: url(../images/trailer_03.png);
+    background-repeat:no repeat;
+    width: 234px;
+    height: 134px;
+}

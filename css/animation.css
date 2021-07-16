@@ -28,3 +28,14 @@
     
     -webkit-animation:landscape 5s infinite linear;
 }
+.whell1, .whell2
+{
+    animation: whell 1s infinite reverse linear;
+    -webkit-animation: whell 1s infinite reverse linear;
+
+}
+.trailer
+{
+    animation: trailer 0.5s infinite  linear alternate;
+    -webkit-animation: trailer 0.5s infinite  linear alternate;
+}

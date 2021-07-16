@@ -2,7 +2,7 @@
 {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    box-sizing:border-box;
 }
 div
 {
@@ -21,12 +21,12 @@ div
 .cloud
 {
     background-image: url(/images/cloud_03.png);
-    background-repeat: repeat-X;
+    background-repeat:repeat-X;
 }
 .horizont
 {
     background-image: url(/images/horizont_03.png);
-    background-repeat: repeat-X;
+    background-repeat:repeat-X;
 }
 
 .hill
@@ -38,22 +38,44 @@ div
 .grass,.grass2
 {
     background-image: url(/images/grass_03.png);
-    background-repeat: repeat-X; 
+    background-repeat:repeat-X; 
     position: absolute;
 }
 .auto
 {
-    border:thin solid #000;
+    /* border:thin solid #000; */
     position:absolute;
     width:234px;
-    height: 150px;
-    bottom:0;
+    height:137px;
+    bottom:0px;
     left:400px;
+    top:133px;
 }
 .trailer
 {
     background-image: url(../images/trailer_03.png);
-    background-repeat:no repeat;
+    background-repeat:no-repeat;
     width: 234px;
-    height: 134px;
+    height: 114px;
+    
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+}
+[class*="whell"]
+{
+    background-image: url(../images/wheel_03.png);
+    background-repeat: no-repeat;
+    width: 63px;
+    height: 63px;
+    position: absolute;
+    bottom:0;
+}
+
+.whell1
+{
+left:17px;
+}
+.whell2
+{
+left:146px;
 }

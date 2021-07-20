@@ -33,6 +33,7 @@ div
 {
     background-image: url(/images/hill_03.png);
     background-repeat: repeat-X;
+    position:relative;
 }
 
 .grass,.grass2
@@ -49,7 +50,7 @@ div
     height:137px;
     bottom:0px;
     left:400px;
-    top:133px;
+    /* top:133px; */
 }
 .trailer
 {
